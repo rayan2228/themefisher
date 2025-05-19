@@ -1,12 +1,13 @@
 import downloadIcon from "@/app/assets/icons/download.svg"
+import Title from "@/components/Title"
 import Image from 'next/image'
 
 const Introduction = () => {
     return (
         <div>
-            <h5 className='font-bold gradient-text'>INTRODUCTION</h5>
-            <h1 className='font-bold text-5xl max-w-[620px] my-2 leading-[130%]'>I&apos;m a Creative Developer &
-                UI/UX Design Expert</h1>
+            <span className='font-bold gradient-text'>INTRODUCTION</span>
+            <Title text="I&apos;m a Creative Developer &
+                UI/UX Design Expert" className="my-2 leading-[130%] max-w-[620px]" />
             <h4 className='font-bold'>24 years   /   Robert Smith   /   UK London</h4>
             <p className='font-medium mt-9 max-w-[591px]'>Prolific, full stack web developer with a passion for metrics and beating former
                 &quot;best-yets. Prototyped 25 new product features per year for Flexor, Inc.

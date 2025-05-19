@@ -6,6 +6,7 @@ import Image from "next/image";
 import Introduction from "./Introduction";
 import Navbar from "./Navbar";
 import Copywrite from "./Copywrite";
+import About from "./About";
 const Hero = () => {
     return (
         <section className=" mt-27">
@@ -23,6 +24,7 @@ const Hero = () => {
                 <div className="container">
                     <div className="pt-10 pb-14  ml-[220px]">
                         <Introduction />
+                        <About />
                     </div>
                 </div>
             </div>
