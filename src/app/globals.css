@@ -8,6 +8,7 @@
   --color-bg-two: #121414;
   --color-bg-three: #353535;
   --color-text-one: #c2c2c2;
+  --color-text-two: #A5A5A5;
 }
 body {
   @apply bg-bg-one text-white;

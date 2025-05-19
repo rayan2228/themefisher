@@ -5,12 +5,14 @@ import SocialIcons from "@/components/SocialIcons";
 import Image from "next/image";
 import Introduction from "./Introduction";
 import Navbar from "./Navbar";
+import Copywrite from "./Copywrite";
 const Hero = () => {
     return (
         <section className=" mt-27">
-            <Navbar/>
+            <Navbar />
             <Image src={leftShape} alt="bg" className="object-cover fixed bottom-50 left-0" />
             <Image src={rightShape} alt="bg" className="object-cover fixed bottom-50 right-0" />
+            <Copywrite />
             <div className="px-23">
                 <div className="fixed">
                     <div className="min-w-[368px] bg-black flex flex-col justify-center items-center ">
