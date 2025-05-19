@@ -3,11 +3,11 @@ import Hero from "@/sections/Hero";
 
 export default function Home() {
   return (
-    <section className="min-h-screen">
+    // <section className="max-h-screen">
+    <>
       <Header />
-      <div>
-        <Hero />
-      </div>
-    </section>
+      <Hero />
+    </>
+    // </section>
   );
 }

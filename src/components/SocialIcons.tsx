@@ -40,7 +40,7 @@ const SocialIcons = () => {
             {
                 socialDetails.map((item, index) => {
                     return (
-                        <Link key={index} href={item.url} target="_blank" className="w-8 h-8 rounded-full flex items-center justify-center bg-bg-four">
+                        <Link key={index} href={item.url} target="_blank" className="w-8 h-8 rounded-full flex items-center justify-center bg-bg-one">
                             <Image src={item.icon} alt={item.name} />
                         </Link>
                     )

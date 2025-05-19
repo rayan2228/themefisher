@@ -7,11 +7,15 @@
   --color-bg-one: #171b1a;
   --color-bg-two: #121414;
   --color-bg-three: #353535;
-  --color-bg-four: #171B1A;
   --color-text-one: #c2c2c2;
 }
 body {
   @apply bg-bg-one text-white;
+}
+
+@utility container {
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 @utility gradient-bg {
