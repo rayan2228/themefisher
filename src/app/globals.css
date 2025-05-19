@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+:root {
+  --color-gradient: linear-gradient(90deg, #f5bd4d 0.36%, #f89222 99.88%);
+}
+@theme {
+  --color-bg-one: #171b1a;
+  --color-bg-two: #121414;
+  --color-bg-three: #353535;
+  --color-text-one: #c2c2c2;
+}
+body {
+  @apply bg-bg-one text-white;
+}
+
+@utility gradient-bg {
+  background: var(--color-gradient);
+}
+
+@utility gradient-text {
+  background: var(--color-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
