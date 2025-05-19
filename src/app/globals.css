@@ -2,6 +2,11 @@
 
 :root {
   --color-gradient: linear-gradient(90deg, #f5bd4d 0.36%, #f89222 99.88%);
+  --color-gradient-two: linear-gradient(
+    90deg,
+    rgba(245, 189, 77, 0.3) 0.36%,
+    rgba(248, 146, 34, 0.3) 99.88%
+  );
 }
 @theme {
   --color-bg-one: #171b1a;
@@ -9,7 +14,7 @@
   --color-bg-three: #353535;
   --color-text-one: #c2c2c2;
   --color-text-two: #a5a5a5;
-  --color-text-three: #8F8F8F;
+  --color-text-three: #8f8f8f;
 }
 body {
   @apply bg-bg-one text-white;
@@ -29,4 +34,9 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@utility gradient-bg-two {
+  background: var(--color-gradient);
+  border-radius: 50px;
 }

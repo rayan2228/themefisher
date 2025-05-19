@@ -1,7 +1,12 @@
+import SkillProgressbar from "@/components/SkillProgressbar"
+import Title from "@/components/Title"
 
 const Skills = () => {
     return (
-        <div>Skills</div>
+        <section className="mt-25">
+            <Title text="Skills" />
+            <SkillProgressbar />
+        </section>
     )
 }
 
