@@ -3,8 +3,8 @@ import Button from "@/components/Button"
 import Image from "next/image"
 const Header = () => {
     return (
-        <header className="flex px-23 py-6 items-center bg-bg-two ">
-            <div className="min-w-[460px] after:content-[''] after:w-[1px] after:h-[180%] after:bg-bg-three  after:absolute after:top-[-24] after:right-0 relative">
+        <header className="flex px-23 py-6 items-center bg-bg-two w-full sticky top-0 left-0 ">
+            <div className="min-w-[368px] after:content-[''] after:w-[1px] after:h-[180%] after:bg-bg-three  after:absolute after:top-[-24] after:right-0 relative">
                 <Image src={"/logo.png"} alt="logo" width={180} height={32} />
                 <h6 className="text-lg text-text-one">UI/UX designer</h6>
             </div>
