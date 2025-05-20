@@ -2,7 +2,7 @@ import Image, { StaticImageData } from 'next/image';
 
 const BlogCard = ({ data }: { data: { id: number; image: StaticImageData; category: string; date: string; title: string; description: string; author: string, long?: boolean }[] }) => {
     return (
-        <div className="flex flex-wrap gap-5  mt-10">
+        <div className="flex flex-wrap gap-5  mt-10 items-baseline">
             {
                 data.map((item) => {
                     const { id, image, category, date, title, description, author, long } = item

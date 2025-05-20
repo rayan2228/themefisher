@@ -29,7 +29,6 @@ const blogs = [
     {
         "id": 3,
         "image": blog3Img,
-        "long": true,
         "category": "Graphic design",
         "date": "20 DEC 2021",
         "title": "There are countless versions of lorem ipsum, the most famous.",
@@ -39,6 +38,7 @@ const blogs = [
     {
         "id": 4,
         "image": blog4Img,
+        "long": true,
         "category": "Travel",
         "date": "20 DEC 2021",
         "title": "The principles of true art is not to portray, but to evoke.",
