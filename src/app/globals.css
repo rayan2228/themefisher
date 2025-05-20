@@ -46,3 +46,54 @@ body {
 @utility gradient-bg-two {
   background: var(--color-gradient-two);
 }
+
+/* Common styles for input wrapper */
+.gradient-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* Styles for both input and textarea */
+.gradient-input,
+.gradient-textarea {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  border-radius: 0.75rem;
+  background-color: black;
+  border: transparent;
+  position: relative;
+  z-index: 1;
+  color: white; /* Making text visible on black background */
+  box-sizing: border-box;
+}
+
+
+/* Focus state for both */
+.gradient-input:focus,
+.gradient-textarea:focus {
+  outline: none;
+}
+
+/* Gradient border container */
+.gradient-border {
+  position: relative;
+}
+
+/* Default gradient border */
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  top: -1.5px;
+  left: -1.5px;
+  right: -1.5px;
+  bottom: -1.5px;
+  border-radius: 12px;
+  z-index: 0;
+  background: var(--color-gradient-two);
+  transition: background 0.3s ease;
+}
+
+/* Focus state gradient border */
+.gradient-border:focus-within::before {
+  background: var(--color-gradient);
+}

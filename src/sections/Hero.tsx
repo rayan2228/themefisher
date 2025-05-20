@@ -9,6 +9,7 @@ import Copywrite from "./Copywrite";
 import Introduction from "./Introduction";
 import Navbar from "./Navbar";
 import PricePlan from "./PricePlan";
+import Contact from "./Contact";
 const Hero = () => {
     return (
         <section className=" mt-27">
@@ -29,6 +30,7 @@ const Hero = () => {
                         <About />
                         <Blog />
                         <PricePlan />
+                        <Contact />
                     </div>
                 </div>
             </div>
