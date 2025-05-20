@@ -16,7 +16,6 @@
   --color-text-two: #a5a5a5;
   --color-text-three: #8f8f8f;
   --color-text-four: #979797;
-  
 }
 body {
   @apply bg-bg-one text-white;
@@ -37,8 +36,13 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@utility gradient-hover {
+  background: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 @utility gradient-bg-two {
-  background: var(--color-gradient);
-  border-radius: 50px;
+  background: var(--color-gradient-two);
 }

@@ -3,10 +3,12 @@ import meImg from "@/app/assets/images/me.png";
 import rightShape from "@/app/assets/images/right-shape.png";
 import SocialIcons from "@/components/SocialIcons";
 import Image from "next/image";
+import About from "./About";
+import Blog from "./Blog";
+import Copywrite from "./Copywrite";
 import Introduction from "./Introduction";
 import Navbar from "./Navbar";
-import Copywrite from "./Copywrite";
-import About from "./About";
+import PricePlan from "./PricePlan";
 const Hero = () => {
     return (
         <section className=" mt-27">
@@ -25,6 +27,8 @@ const Hero = () => {
                     <div className="pt-10 pb-14  ml-[220px]">
                         <Introduction />
                         <About />
+                        <Blog />
+                        <PricePlan />
                     </div>
                 </div>
             </div>

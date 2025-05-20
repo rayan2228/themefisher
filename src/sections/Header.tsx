@@ -16,7 +16,7 @@ const Header = () => {
                         </span>
                         <h5 className="font-bold text-2xl">Home</h5>
                     </div>
-                    <Button />
+                    <Button css="rounded-full" />
                 </div>
             </div>
         </header>

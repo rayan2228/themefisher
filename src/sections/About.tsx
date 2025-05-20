@@ -1,5 +1,4 @@
 import Title from "@/components/Title"
-import Blog from "./Blog"
 import Education from "./Education"
 import Skills from "./Skills"
 import Work from "./Work"
@@ -11,7 +10,6 @@ const About = () => {
             <Education />
             <Work />
             <Skills />
-            <Blog />
         </section>
     )
 }
