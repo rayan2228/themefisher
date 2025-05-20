@@ -5,17 +5,18 @@ import SocialIcons from "@/components/SocialIcons";
 import Image from "next/image";
 import About from "./About";
 import Blog from "./Blog";
+import Contact from "./Contact";
 import Copywrite from "./Copywrite";
 import Introduction from "./Introduction";
 import Navbar from "./Navbar";
+import Portfolio from "./Portfolio";
 import PricePlan from "./PricePlan";
-import Contact from "./Contact";
 const Hero = () => {
     return (
         <section className=" mt-27">
             <Navbar />
-            <Image src={leftShape} alt="bg" className="object-cover fixed bottom-50 left-0" />
-            <Image src={rightShape} alt="bg" className="object-cover fixed bottom-50 right-0" />
+            <Image src={leftShape} alt="bg" className="object-cover fixed top-68 left-0" />
+            <Image src={rightShape} alt="bg" className="object-cover fixed top-68 right-0" />
             <Copywrite />
             <div className="px-23">
                 <div className="fixed">
@@ -28,6 +29,7 @@ const Hero = () => {
                     <div className="pt-10 pb-14  ml-[220px]">
                         <Introduction />
                         <About />
+                        <Portfolio />
                         <Blog />
                         <PricePlan />
                         <Contact />

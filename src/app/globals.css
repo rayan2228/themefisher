@@ -16,6 +16,7 @@
   --color-text-two: #a5a5a5;
   --color-text-three: #8f8f8f;
   --color-text-four: #979797;
+  --shadow-one: 0px 0px 25px 10px rgba(255, 255, 255, 0.06);
 }
 body {
   @apply bg-bg-one text-white;
@@ -47,13 +48,15 @@ body {
   background: var(--color-gradient-two);
 }
 
-/* Common styles for input wrapper */
+
+
+
 .gradient-input-wrapper {
   position: relative;
   width: 100%;
 }
 
-/* Styles for both input and textarea */
+
 .gradient-input,
 .gradient-textarea {
   width: 100%;
@@ -63,23 +66,23 @@ body {
   border: transparent;
   position: relative;
   z-index: 1;
-  color: white; /* Making text visible on black background */
+  color: white; 
   box-sizing: border-box;
 }
 
 
-/* Focus state for both */
+
 .gradient-input:focus,
 .gradient-textarea:focus {
   outline: none;
 }
 
-/* Gradient border container */
+
 .gradient-border {
   position: relative;
 }
 
-/* Default gradient border */
+
 .gradient-border::before {
   content: "";
   position: absolute;
@@ -93,7 +96,7 @@ body {
   transition: background 0.3s ease;
 }
 
-/* Focus state gradient border */
+
 .gradient-border:focus-within::before {
   background: var(--color-gradient);
 }
