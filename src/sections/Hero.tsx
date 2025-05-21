@@ -15,8 +15,8 @@ const Hero = () => {
     return (
         <section className=" mt-27">
             <Navbar />
-            <Image src={leftShape} alt="bg" className="object-cover fixed top-68 left-0" />
-            <Image src={rightShape} alt="bg" className="object-cover fixed top-68 right-0" />
+            <Image src={leftShape} alt="leftbg" className="object-cover fixed top-68 left-0" />
+            <Image src={rightShape} alt="rightbg" className="object-cover fixed top-58 right-0" />
             <Copywrite />
             <div className="px-23">
                 <div className="fixed">

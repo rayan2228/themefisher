@@ -18,6 +18,11 @@
   --color-text-four: #979797;
   --shadow-one: 0px 0px 25px 10px rgba(255, 255, 255, 0.06);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-bg-one text-white;
 }
@@ -48,14 +53,10 @@ body {
   background: var(--color-gradient-two);
 }
 
-
-
-
 .gradient-input-wrapper {
   position: relative;
   width: 100%;
 }
-
 
 .gradient-input,
 .gradient-textarea {
@@ -66,22 +67,18 @@ body {
   border: transparent;
   position: relative;
   z-index: 1;
-  color: white; 
+  color: white;
   box-sizing: border-box;
 }
-
-
 
 .gradient-input:focus,
 .gradient-textarea:focus {
   outline: none;
 }
 
-
 .gradient-border {
   position: relative;
 }
-
 
 .gradient-border::before {
   content: "";
@@ -95,7 +92,6 @@ body {
   background: var(--color-gradient-two);
   transition: background 0.3s ease;
 }
-
 
 .gradient-border:focus-within::before {
   background: var(--color-gradient);
