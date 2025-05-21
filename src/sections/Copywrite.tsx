@@ -10,7 +10,7 @@ const languages = [
 ]
 const Copywrite = () => {
     return (
-        <div className="fixed z-30 bottom-70 right-8 flex-col justify-center items-center
+        <div className="fixed z-30 lg:top-35 right-8 flex-col justify-center items-center
           gap-11 hidden lg:flex">
             <h6 className="text-sm text-text-two" style={{
                 writingMode: "vertical-rl",

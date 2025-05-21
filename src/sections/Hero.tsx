@@ -26,7 +26,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="pt-10 pb-14 sm:ml-0 3xl:ml-[800px] 2xl:ml-[220px] lg:ml-[300px] xl:ml-[410px]  ">
+                    <div className="pt-10 pb-14 pl-0 lg:pl-[410px]  2xl:pl-[220px] xl:pl-[410px] ">
                         <Introduction />
                         <About />
                         <Portfolio />

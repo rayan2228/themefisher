@@ -17,7 +17,6 @@
   --color-text-three: #8f8f8f;
   --color-text-four: #979797;
   --shadow-one: 0px 0px 25px 10px rgba(255, 255, 255, 0.06);
-  --breakpoint-3xl: 1600px;
 }
 
 html {
@@ -96,4 +95,23 @@ body {
 
 .gradient-border:focus-within::before {
   background: var(--color-gradient);
+}
+
+.rayan {
+  padding-left: 0px;
+}
+@media (min-width: 768px) {
+  .rayan {
+    padding-left: 410px;
+  }
+}
+@media (min-width: 1024px) {
+  .rayan {
+    padding-left: 292px;
+  }
+}
+@media (min-width: 1320px) {
+  .rayan {
+    padding-left: 220px;
+  }
 }
