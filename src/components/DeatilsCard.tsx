@@ -17,7 +17,7 @@ const DeatilsCard = ({
                     const { year, title, subtitle, description } = item;
                     return (
                         <Fragment key={index}>
-                            <div className="mt-2.5 max-w-[646px]">
+                            <div className="mt-2.5 w-auto lg:max-w-[646px]">
                                 <h4 className="font-bold text-sm border rounded-sm inline-block px-2 py-1 border-white/20">
                                     {year}
                                 </h4>

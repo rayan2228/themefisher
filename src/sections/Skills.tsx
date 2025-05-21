@@ -12,7 +12,7 @@ export default function SkillsPage() {
     ];
 
     return (
-        <section className="mt-25 w-[742px]">
+        <section className="lg:mt-25 mt-10 w-auto lg:w-[742px]">
             <Title text='Skills' />
             {skills.map((item) => (
                 <SkillBar key={item.skill} skill={item.skill} percentage={item.percentage} />

@@ -12,7 +12,7 @@ const educationDetails = [
         "year": "2022 - 2023",
         "title": "BHelwan University",
         "subtitle": "Bachelor Degree",
-         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum, laborum maiores mollitia, optio quam quis rerum totam voluptas."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi earum eligendi ipsum, laborum maiores mollitia, optio quam quis rerum totam voluptas."
     }
 ]
 

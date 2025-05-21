@@ -5,7 +5,7 @@ import Work from "./Work"
 
 const About = () => {
     return (
-        <section className="mt-25" id="about">
+        <section className="mt-10 lg:mt-25 px-5 lg:px-0" id="about">
             <Title text="Resume" />
             <Education />
             <Work />
