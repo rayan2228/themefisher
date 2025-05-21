@@ -68,7 +68,7 @@ const blogs = [
 
 const Blog = () => {
     return (
-        <section className="mt-25">
+        <section className="mt-25" id="blog">
             <Title text="Blog" />
             <BlogCard data={blogs} />
         </section>

@@ -3,7 +3,7 @@ import Title from "@/components/Title"
 
 const Portfolio = () => {
     return (
-        <section className="mt-25">
+        <section className="mt-25" id="portfolio">
             <Title text="Portfolio" />
             <Tabs />
         </section>

@@ -17,7 +17,7 @@ const workDetails = [
 ]
 const Work = () => {
     return (
-        <section className="mt-11">
+        <section className="mt-11" id="work">
             <SecondaryTitle icon={workIcon} alt="work" title="Work History" />
             <div className="mt-8">
                 <DeatilsCard data={workDetails} />

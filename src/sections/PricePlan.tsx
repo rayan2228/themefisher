@@ -72,7 +72,7 @@ const features = [
 ]
 const PricePlan = () => {
   return (
-    <section className='mt-25'>
+    <section className='mt-25' id='price'>
       <Title text='price' />
       <PricePlanCard data={pricePlanDetails} features={features} />
     </section>

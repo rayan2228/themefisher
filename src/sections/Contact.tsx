@@ -4,7 +4,7 @@ import Title from "@/components/Title"
 
 const Contact = () => {
     return (
-        <section className="mt-25">
+        <section className="mt-25" id="contact">
             <Title text="Contact" />
             <form action="" className="mt-10 flex flex-col gap-5.5">
                 <div className="flex gap-5.5 ">

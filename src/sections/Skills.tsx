@@ -3,7 +3,7 @@ import Title from "@/components/Title"
 
 const Skills = () => {
     return (
-        <section className="mt-25">
+        <section className="mt-25" id="skills">
             <Title text="Skills" />
             <SkillProgressbar />
         </section>

@@ -32,14 +32,13 @@ const navbarDetails = [
         icon: contactIcon
     }
 ]
-
 const Navbar = () => {
     return (
         <nav className="flex flex-col items-center gap-10 fixed z-30 top-50 left-8 ">
             {
                 navbarDetails.map((item) => {
                     return (
-                        <Link key={item.name} href={item.url} className="text-white hover:text-primary"><Image src={item.icon} alt={item.name} /></Link>
+                        <Link key={item.name} href={item.url}><Image src={item.icon} alt={item.name} /></Link>
                     )
                 })
             }
