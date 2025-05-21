@@ -63,9 +63,9 @@ export default function Tabs() {
     ];
 
     return (
-        <div className="w-full max-w-[742px] mt-10">
+        <div className="w-full lg:max-w-[742px] mt-10">
             {/* Tabs Navigation */}
-            <div className="flex flex-wrap py-5.5 bg-bg-two px-10 rounded-md gap-10 shadow-one">
+            <div className="flex flex-wrap md:flex-row flex-col py-5.5 bg-bg-two px-10 rounded-md gap-10 shadow-one">
                 {tabs.map((tab, index) => (
                     <button
                         key={index}
