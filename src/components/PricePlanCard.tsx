@@ -20,7 +20,7 @@ const PricePlanCard = ({ data, features }: PricePlanProps) => {
     <div className="flex gap-6 mt-10 flex-wrap">
       {
         data.map(({ id, title, price }) => (
-          <div key={id} className="lg:min-w-[360px] w-full bg-black relative py-12">
+          <div key={id} className="lg:max-w-[360px] w-full bg-black relative py-12">
             <Image src={priceShape} alt="priceShape" className="absolute top-2 right-0" />
             <span className="gradient-bg-two py-3 px-6 rounded-e-4xl font-bold capitalize">
               {title}
