@@ -15,9 +15,9 @@ const BlogCard = ({
     }[];
 }) => {
     return (
-        <div className="sm:columns-2 columns-1 gap-6 mt-10 space-y-6 w-[742px]">
+        <div className="sm:columns-2 columns-1 gap-6 mt-10 space-y-6 w-full lg:w-[742px]">
             {data.map(({ id, image, category, date, title, description, author, long }) => (
-                <div key={id} className="break-inside-avoid  rounded-lg shadow-md bg-black min-w-[360px]">
+                <div key={id} className="break-inside-avoid  rounded-lg shadow-md bg-black w-auto lg:min-w-[360px]">
                     <Image
                         src={image}
                         alt={title}
