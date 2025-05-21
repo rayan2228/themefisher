@@ -21,7 +21,7 @@ const Hero = () => {
             <div className="px-23">
                 <div className="fixed">
                     <div className="min-w-[368px] bg-black flex flex-col justify-center items-center ">
-                        <Image src={meImg} alt="me" />
+                        <Image src={meImg} alt="Daryl-Smith-Image " />
                         <SocialIcons />
                     </div>
                 </div>
