@@ -15,18 +15,18 @@ const Hero = () => {
     return (
         <section className=" mt-27">
             <Navbar />
-            <Image src={leftShape} alt="leftbg" className="object-cover fixed top-68 left-0" />
-            <Image src={rightShape} alt="rightbg" className="object-cover fixed top-58 right-0" />
+            <Image src={leftShape} alt="leftbg" className="object-cover fixed top-68 left-0 hidden lg:block" />
+            <Image src={rightShape} alt="rightbg" className="object-cover fixed top-58 right-0 hidden lg:block" />
             <Copywrite />
-            <div className="px-23">
-                <div className="fixed">
+            <div className="lg:px-23 px-0">
+                <div className="lg:fixed">
                     <div className="min-w-[368px] bg-black flex flex-col justify-center items-center ">
                         <Image src={meImg} alt="Daryl-Smith-Image " />
                         <SocialIcons />
                     </div>
                 </div>
                 <div className="container">
-                    <div className="pt-10 pb-14  ml-[220px]">
+                    <div className="pt-10 pb-14  lg:ml-[220px]">
                         <Introduction />
                         <About />
                         <Portfolio />
