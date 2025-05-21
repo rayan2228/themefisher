@@ -8,7 +8,7 @@ const Introduction = () => {
             <span className='font-bold gradient-text'>INTRODUCTION</span>
             <Title hasRenderedH1={true} text="I&apos;m a Creative Developer &
                 UI/UX Design Expert" className="my-2 leading-[130%] max-w-[620px]" />
-            <h4 className='font-bold'>24 years   /   Robert Smith   /   UK London</h4>
+            <p className='font-bold'>24 years   /   Robert Smith   /   UK London</p>
             <p className='font-medium mt-9 max-w-[591px]'>Prolific, full stack web developer with a passion for metrics and beating former
                 &quot;best-yets. Prototyped 25 new product features per year for Flexor, Inc.
                 Decreased rework by 22% and costs by 15%. Consistently receive high

@@ -21,7 +21,7 @@ const Education = () => {
         <section className="mt-11">
             <SecondaryTitle icon={educationIcon} alt="education" title="Education" />
             <div className="mt-8">
-                <DeatilsCard data={educationDetails} />
+                <DeatilsCard data={educationDetails} alt="education-timeline-line" />
             </div>
         </section>
     )

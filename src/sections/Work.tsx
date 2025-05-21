@@ -20,7 +20,7 @@ const Work = () => {
         <section className="mt-11" id="work">
             <SecondaryTitle icon={workIcon} alt="work" title="Work History" />
             <div className="mt-8">
-                <DeatilsCard data={workDetails} />
+                <DeatilsCard data={workDetails} alt="work-timeline-line" />
             </div>
         </section>
     )
