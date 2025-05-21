@@ -1,7 +1,7 @@
 import facebookIcon from "@/app/assets/icons/facebook.svg"
+import instagramIcon from "@/app/assets/icons/instagram.svg"
 import linkedinIcon from "@/app/assets/icons/linkedin.svg"
 import pinterestIcon from "@/app/assets/icons/pinterest.svg"
-import instagramIcon from "@/app/assets/icons/instagram.svg"
 import twitterIcon from "@/app/assets/icons/twitter.svg"
 import Image from "next/image"
 import Link from "next/link"
@@ -36,7 +36,7 @@ const socialDetails = [
 
 const SocialIcons = () => {
     return (
-        <div className="flex gap-4 items-center py-3.5">
+        <div className="flex gap-4 items-center lg:py-3.5 md:py-4">
             {
                 socialDetails.map((item, index) => {
                     return (

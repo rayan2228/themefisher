@@ -5,7 +5,7 @@ const Title = ({ text, className, hasRenderedH1 = false }: { text: string; class
     if (!hasRenderedH1) hasRenderedH1 = true
 
     return (
-        <Tag className={`font-bold text-5xl capitalize ${className}`}>
+        <Tag className={`font-bold lg:text-5xl capitalize text-3xl md:text-4xl  ${className}`}>
             {text}
         </Tag>
     )
