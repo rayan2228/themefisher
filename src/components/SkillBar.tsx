@@ -22,17 +22,18 @@ export default function SkillBar({ skill, percentage }: SkillBarProps) {
             { threshold: 0.4 }
         );
 
-        if (ref.current) {
-            observer.observe(ref.current);
+        const element = ref.current;
+
+        if (element) {
+            observer.observe(element);
         }
 
         return () => {
-            if (ref.current) {
-                observer.unobserve(ref.current);
+            if (element) {
+                observer.unobserve(element);
             }
         };
     }, []);
-
     return (
         <div ref={ref} className="my-6 ">
             <div className="flex justify-between mb-1">

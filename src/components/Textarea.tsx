@@ -1,7 +1,6 @@
-// components/GlobalTextarea.js
-// Make sure to import the global CSS in your _app.js file
+import { HTMLAttributes } from 'react';
 
-const Textarea = ({ id, label, rows = 4, ...props }: { id: string; label: string; rows?: number;[key: string]: any }) => {
+const Textarea = ({ id, label, rows = 4, ...props }: { id: string; label: string; rows?: number } & HTMLAttributes<HTMLTextAreaElement>) => {
     return (
         <div className='flex flex-col w-[742px] gap-2'>
             <label htmlFor={id} className='text-xl font-medium'>{label}*</label>
@@ -17,4 +16,4 @@ const Textarea = ({ id, label, rows = 4, ...props }: { id: string; label: string
     );
 };
 
-export default Textarea;
+export default Textarea
