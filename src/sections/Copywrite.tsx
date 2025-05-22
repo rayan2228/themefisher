@@ -10,9 +10,9 @@ const languages = [
 ]
 const Copywrite = () => {
     return (
-        <div className="fixed z-30 lg:top-35 right-8 flex-col justify-center items-center
-          gap-11 hidden lg:flex">
-            <h6 className="text-sm text-text-two" style={{
+        <div className="fixed z-30 top-84 lg:top-35 lg:right-8 flex-col justify-center items-center
+          gap-11 flex bg-bg-two p-4 lg:bg-transparent lg:p-0 right-0 rounded-s-3xl">
+            <h6 className="text-sm text-text-two hidden lg:block" style={{
                 writingMode: "vertical-rl",
                 textOrientation: "mixed"
             }}>© design by themefisher developed by gethugothemes</h6>

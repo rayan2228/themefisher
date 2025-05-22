@@ -48,7 +48,7 @@ const Navbar = () => {
     }, [])
 
     return (
-        <nav className="lg:flex flex-col items-center gap-10 fixed z-30 top-84 -translate-y-1/2 left-8 hidden ">
+        <nav className="flex flex-col items-center gap-10 fixed z-30 lg:top-84 -translate-y-1/2 lg:left-8  bg-bg-two lg:bg-transparent left-0 p-4 lg:p-0 top-100 rounded-e-3xl">
             {navbarDetails.map((item) => {
                 const sectionName =
                     item.url === "/" ? "home" : item.url.replace("#", "")
