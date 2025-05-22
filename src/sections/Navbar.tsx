@@ -10,9 +10,10 @@ import homeIcon from "@/app/assets/icons/home.svg"
 import homeColorIcon from "@/app/assets/icons/homeColor.svg"
 import portfolioIcon from "@/app/assets/icons/portfolio.svg"
 import portfolioColorIcon from "@/app/assets/icons/portfolioColor.svg"
+import { NavIconContext } from "@/contextAPI"
 import Image from "next/image"
 import Link from "next/link"
-import { useEffect, useState } from "react"
+import { use, useEffect } from "react"
 
 const navbarDetails = [
     { name: "Home", url: "/", icon: homeIcon, colorIcon: homeColorIcon },
@@ -23,7 +24,7 @@ const navbarDetails = [
 ]
 
 const Navbar = () => {
-    const [active, setActive] = useState("home")
+    const { active, setActive } = use(NavIconContext)
 
     useEffect(() => {
         const handleScroll = () => {
@@ -40,6 +41,7 @@ const Navbar = () => {
                 }
             }
             setActive(current)
+
         }
 
         handleScroll()
