@@ -10,7 +10,6 @@ import blogWhiteIcon from "@/app/assets/icons/blogWhite.svg"
 import contactWhiteIcon from "@/app/assets/icons/contactWhite.svg"
 import homeWhiteIcon from "@/app/assets/icons/homeWhite.svg"
 import portfolioWhiteIcon from "@/app/assets/icons/portfolioWhite.svg"
-import Link from "next/link"
 
 const iconMap: Record<string, StaticImageData> = {
     home: homeWhiteIcon,
@@ -47,9 +46,7 @@ const Header = () => {
                         </span>
                         <h5 className="font-bold text-2xl">{activeLabel}</h5>
                     </div>
-                    <Link href={"#contact"}>
-                        <Button css="rounded-full" />
-                    </Link>
+                    <Button css="rounded-full" link="#contact" />
                 </div>
             </div>
         </header>
