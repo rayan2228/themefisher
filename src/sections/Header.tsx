@@ -41,10 +41,10 @@ const Header = () => {
             <div className="container">
                 <div className="flex items-center justify-between flex-1 sm:ml-10">
                     <div className="flex items-center gap-4">
-                        <span className="w-10 h-10 rounded-sm flex items-center justify-center gradient-bg">
-                            <Image src={activeIcon} alt={`${active}-icon`} />
+                        <span className="lg:w-10 lg:h-10 rounded-sm flex items-center justify-center gradient-bg">
+                            <Image src={activeIcon} alt={`${active}-icon`}  />
                         </span>
-                        <h5 className="font-bold text-2xl">{activeLabel}</h5>
+                        <h5 className="font-bold lg:text-2x text-lg">{activeLabel}</h5>
                     </div>
                     <Button css="rounded-full" link="#contact" />
                 </div>
