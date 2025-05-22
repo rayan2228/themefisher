@@ -1,6 +1,7 @@
 import downloadIcon from "@/app/assets/icons/download.svg"
 import Title from "@/components/Title"
 import Image from 'next/image'
+import Link from "next/link"
 
 const Introduction = () => {
     return (
@@ -16,8 +17,9 @@ const Introduction = () => {
                 55% increase for Flexor, Inc. Passionate about building world class web
                 applications. One of my sites received a 2020 Webby for Best
                 Navigation and Structure.</p>
-
-            <button className="flex gradient-bg px-6 py-3.5 rounded-[50px] gap-2.5 items-center mt-10 cursor-pointer">Downdolad CV <Image src={downloadIcon} alt="download-icon" /></button>
+            <Link href={"/files/Rayan-Hossain.pdf"} download={true} className="inline-flex gradient-bg px-6 py-3.5 rounded-[50px] gap-2.5 items-center mt-10 cursor-pointer">
+                Downdolad CV <Image src={downloadIcon} alt="download-icon" />
+            </Link>
         </div>
     )
 }
