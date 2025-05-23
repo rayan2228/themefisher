@@ -41,8 +41,8 @@ const Header = () => {
             <div className="container">
                 <div className="flex items-center justify-between flex-1 sm:ml-10">
                     <div className="flex items-center gap-4">
-                        <span className="sm:w-10 sm:h-10 rounded-sm flex items-center justify-center gradient-bg">
-                            <Image src={activeIcon} alt={`${active}-icon`}  />
+                        <span className="w-10 h-10 rounded-sm flex items-center justify-center gradient-bg">
+                            <Image src={activeIcon} alt={`${active}-icon`} />
                         </span>
                         <h5 className="font-bold sm:text-2xl text-lg">{activeLabel}</h5>
                     </div>
